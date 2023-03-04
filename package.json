@@ -6,7 +6,7 @@
   "scripts": {
     "start": "tsc && node dist/app.js",
     "build": "tsc",
-    "start-crawler": "tsc && node dist/crawler/crawler.js",
+    "crawler": "tsc && node dist/crawler/crawler.js",
     "lint": "eslint . --ext .ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
